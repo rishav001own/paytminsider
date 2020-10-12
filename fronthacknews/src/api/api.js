@@ -37,7 +37,7 @@ export const getComments = async () => {
     return comments.filter(Boolean)
 };
 
-export const getStoryComments = async (ids) => {
+export const getStoryComments = async (id) => {
     const story = await fetchItem(id);
     let items;
 
