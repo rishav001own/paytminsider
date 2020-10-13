@@ -5,7 +5,7 @@ import Post from '../Posts/Post';
 import Comments from '../Comments/Comments';
 import Comment from '../Comments/Comment';
 
-import moment from 'react-moment';
+import moment from 'moment';
 
 import Button from "react-bootstrap/Button";
 import "react-dates/initialize";

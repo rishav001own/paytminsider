@@ -13,7 +13,7 @@ import DropdownBtn from './components/DropdownBtn/DropdownBtn';
 import RenderList from './components/RenderList/RenderList';
 import Pagination from './components/Pagination/Pagination'
 
-import moment from "react-moment";
+import moment from "moment";
 
 import {getTopStories,getComments} from './api/api';
 

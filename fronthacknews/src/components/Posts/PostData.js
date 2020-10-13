@@ -1,7 +1,7 @@
 import React from 'react';
 import { getStoryComments } from "../../api/api";
 import Comment from '../Comments/Comments'
-import moment from "react-moment";
+import moment from "moment";
 
 class PostData extends React.Component {
     state = {
