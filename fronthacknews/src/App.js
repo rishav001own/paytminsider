@@ -118,7 +118,8 @@ class App extends React.Component {
         }));
         return null;
       });
-    }).catch(error => console.log(error));
+    })
+    .catch(error => console.log(error));
     if (!this.state.comments[0].length) {
       this.state.comments.splice(0, 1);
     }
